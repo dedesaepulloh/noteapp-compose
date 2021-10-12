@@ -1,0 +1,26 @@
+package com.dedesaepulloh.noteapp.feature.data.repository
+
+import com.dedesaepulloh.noteapp.feature.data.source.NoteDao
+import com.dedesaepulloh.noteapp.feature.domain.model.Note
+import com.dedesaepulloh.noteapp.feature.domain.repository.NoteRepository
+import kotlinx.coroutines.flow.Flow
+
+class RepositoryImp(
+    private val noteDao: NoteDao
+) : NoteRepository {
+    override fun getNotes(): Flow<List<Note>> {
+        return noteDao.getNotes()
+    }
+
+    override suspend fun getNoteById(id: Int): Note? {
+        return noteDao.getNoteById(id)
+    }
+
+    override suspend fun insertNote(note: Note) {
+        return noteDao.insertNote(note)
+    }
+
+    override suspend fun deleteNote(note: Note) {
+        return noteDao.deleteNote(note)
+    }
+}
