@@ -1,4 +1,4 @@
-package com.dedesaepulloh.noteapp
+package com.dedesaepulloh.noteapp.feature.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
