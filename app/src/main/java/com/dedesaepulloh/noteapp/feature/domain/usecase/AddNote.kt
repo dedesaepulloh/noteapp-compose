@@ -3,7 +3,6 @@ package com.dedesaepulloh.noteapp.feature.domain.usecase
 import com.dedesaepulloh.noteapp.feature.domain.model.InvalidNoteException
 import com.dedesaepulloh.noteapp.feature.domain.model.Note
 import com.dedesaepulloh.noteapp.feature.domain.repository.NoteRepository
-import kotlin.jvm.Throws
 
 class AddNote(
     private val repository: NoteRepository

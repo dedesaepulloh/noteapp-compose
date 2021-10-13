@@ -22,7 +22,6 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.core.graphics.ColorUtils
 import com.dedesaepulloh.noteapp.feature.domain.model.Note
-import com.google.android.material.shape.AbsoluteCornerSize
 
 @Composable
 fun NoteItem(

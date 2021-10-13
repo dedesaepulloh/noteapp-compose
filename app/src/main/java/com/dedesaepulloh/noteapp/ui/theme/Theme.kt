@@ -1,9 +1,6 @@
 package com.dedesaepulloh.noteapp.ui.theme
 
 import androidx.compose.material.MaterialTheme
-import androidx.compose.material.MaterialTheme.colors
-import androidx.compose.material.MaterialTheme.shapes
-import androidx.compose.material.MaterialTheme.typography
 import androidx.compose.material.darkColors
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
@@ -17,7 +14,7 @@ private val DarkColorPalette = darkColors(
 )
 
 @Composable
-fun NoteAppTheme(darkTheme: Boolean = true, content: @Composable() () -> Unit){
+fun NoteAppTheme(darkTheme: Boolean = true, content: @Composable () -> Unit) {
     MaterialTheme(
         colors = DarkColorPalette,
         typography = Typography,

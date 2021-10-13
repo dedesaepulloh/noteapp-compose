@@ -3,7 +3,6 @@ package com.dedesaepulloh.noteapp.feature.domain.model
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.dedesaepulloh.noteapp.ui.theme.*
-import java.lang.Exception
 
 @Entity
 data class Note(
